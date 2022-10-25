@@ -1,6 +1,10 @@
 package com.keyin.tournaments;
 
 public class Tournament {
+//added name to access tournament easier
+//added id field since data is to be in mock-up db
+    private int id;
+    private String name;
     private String startDate;
     private String endDate;
     private String location;
@@ -10,6 +14,7 @@ public class Tournament {
     private String finalStandings;
 
     public Tournament(){
+        this.name = "";
         this.startDate = "";
         this.endDate = "";
         this.location = "";
@@ -17,6 +22,22 @@ public class Tournament {
         this.cashPrize = 0.00;
         this.members = "";
         this.finalStandings = "";
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getStartDate() {
@@ -75,8 +96,10 @@ public class Tournament {
         this.finalStandings = finalStandings;
     }
 
-    public Tournament(String startDate, String endDate, String location, double entryFee,
+    public Tournament(int id,String name, String startDate, String endDate, String location, double entryFee,
                       double cashPrize, String members, String finalStandings){
+        this.id = id;
+        this.name = name;
         this.startDate = startDate;
         this.endDate = endDate;
         this.location = location;

@@ -1,5 +1,7 @@
 package com.keyin.members;
 
+import com.keyin.tournaments.Tournament;
+
 public class Member {
     private String name;
     private String address;
@@ -8,10 +10,16 @@ public class Member {
     private String startDate;
     private String duration;
     private String memberType;
-    private String currentTour;
+//changed current tour value to a Tournament object
+//to easier access the current tournament
+    private Tournament currentTour;
     private String pastTour;
     private String futureTour;
 
+
+//default constructor was causing trouble since currentTour
+//changed from String to Tournament obj -- if needed to be
+//reverted just change Tournament types back to strings
 
     public Member(){
         this.name = "";
@@ -21,13 +29,13 @@ public class Member {
         this.startDate = "";
         this.duration = "";
         this.memberType = "";
-        this.currentTour = "";
+        this.currentTour = new Tournament();
         this.pastTour = "";
         this.futureTour = "";
     }
 
     public Member(String name, String address, String email, String phone, String startDate,
-                  String duration, String memberType, String currentTour, String pastTour,
+                  String duration, String memberType, Tournament currentTour, String pastTour,
                   String futureTour){
         this.name = name;
         this.address = address;
@@ -97,11 +105,11 @@ public class Member {
         this.memberType = memberType;
     }
 
-    public String getCurrentTour() {
+    public Tournament getCurrentTour() {
         return currentTour;
     }
 
-    public void setCurrentTour(String currentTour) {
+    public void setCurrentTour(Tournament currentTour) {
         this.currentTour = currentTour;
     }
 
@@ -119,5 +127,9 @@ public class Member {
 
     public void setFutureTour(String futureTour) {
         this.futureTour = futureTour;
+    }
+
+    public Tournament currentTour() {
+        return currentTour;
     }
 }
