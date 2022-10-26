@@ -5,7 +5,7 @@ import com.keyin.data.Database;
 import java.util.ArrayList;
 import java.util.List;
 
-
+// 1
 public class MemberManager {
     private Database database;
     public List<Member> getMemberByTourName(String tourName){
