@@ -5,7 +5,7 @@ import com.keyin.data.Database;
 import java.util.ArrayList;
 import java.util.List;
 
-// Fixed some errors
+
 public class MemberManager {
     private Database database;
     public List<Member> getMemberByTourName(String tourName){
