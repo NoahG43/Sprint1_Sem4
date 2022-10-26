@@ -5,11 +5,11 @@ import com.keyin.members.Member;
 import com.keyin.members.Tournament;
 
 public class Database {
-    public Member getTournamentByMember(String tournamentA){
+    public Tournament getTournamentByName(String tourName) {
         return null;
     }
 
-    public List<Member> getMemberByTournament(Tournament tournament){
-        return null;
+    public List<Member> getAllMembers() {
+        return new ArrayList<Member>();
     }
 }
