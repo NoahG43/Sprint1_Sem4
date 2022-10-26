@@ -6,4 +6,6 @@ import com.keyin.members.Tournament;
 
 public class Database {
 
+    // Insert code here
+
 }
