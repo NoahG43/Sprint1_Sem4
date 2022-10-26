@@ -1,11 +1,13 @@
 package com.keyin.data;
 import java.util.*;
-
 import com.keyin.members.Member;
 import com.keyin.members.Tournament;
-
 public class Database {
+    public Tournament getTournamentByName(String tourName) {
+        return null;
+    }
 
-    // Insert code here
-
+    public List<Member> getAllMembers() {
+        return new ArrayList<Member>();
+    }
 }
