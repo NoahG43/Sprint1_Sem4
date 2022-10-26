@@ -12,35 +12,6 @@ public class Member {
     private String pastTour;
     private String futureTour;
 
-
-    public Member(){
-        this.name = "";
-        this.address = "";
-        this.email = "";
-        this.phone = "";
-        this.startDate = "";
-        this.duration = "";
-        this.memberType = "";
-        this.currentTour = "";
-        this.pastTour = "";
-        this.futureTour = "";
-    }
-
-    public Member(String name, String address, String email, String phone, String startDate,
-                  String duration, String memberType, String currentTour, String pastTour,
-                  String futureTour){
-        this.name = name;
-        this.address = address;
-        this.email = email;
-        this.phone = phone;
-        this.startDate = startDate;
-        this.duration = duration;
-        this.memberType = memberType;
-        this.currentTour = currentTour;
-        this.pastTour = pastTour;
-        this.futureTour = futureTour;
-    }
-
     public String getName() {
         return name;
     }

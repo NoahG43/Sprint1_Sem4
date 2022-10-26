@@ -1,23 +1,21 @@
-package com.keyin.tournaments;
+package com.keyin.members;
 
 public class Tournament {
+
+    private String tourName;
     private String startDate;
     private String endDate;
     private String location;
     private double entryFee;
     private double cashPrize;
-    private String members;
+    private Member members;
     private String finalStandings;
 
-    public Tournament(){
-        this.startDate = "";
-        this.endDate = "";
-        this.location = "";
-        this.entryFee = 0.00;
-        this.cashPrize = 0.00;
-        this.members = "";
-        this.finalStandings = "";
+    public String getTourName(){
+        return tourName;
     }
+
+    public void setTourName(String tourName){ this.tourName = tourName; }
 
     public String getStartDate() {
         return startDate;
@@ -59,11 +57,11 @@ public class Tournament {
         this.cashPrize = cashPrize;
     }
 
-    public String getMembers() {
+    public Member getMembers() {
         return members;
     }
 
-    public void setMembers(String members) {
+    public void setMembers(Member members) {
         this.members = members;
     }
 
@@ -75,17 +73,17 @@ public class Tournament {
         this.finalStandings = finalStandings;
     }
 
-    public Tournament(String startDate, String endDate, String location, double entryFee,
-                      double cashPrize, String members, String finalStandings){
-        this.startDate = startDate;
-        this.endDate = endDate;
-        this.location = location;
-        this.entryFee = entryFee;
-        this.cashPrize = cashPrize;
-        this.members = members;
-        this.finalStandings = finalStandings;
-
-
-
-    }
+//    public Tournament(String startDate, String endDate, String location, double entryFee,
+//                      double cashPrize, Member members, String finalStandings){
+//        this.startDate = startDate;
+//        this.endDate = endDate;
+//        this.location = location;
+//        this.entryFee = entryFee;
+//        this.cashPrize = cashPrize;
+//        this.members = members;
+//        this.finalStandings = finalStandings;
+//
+//
+//
+//    }
 }
