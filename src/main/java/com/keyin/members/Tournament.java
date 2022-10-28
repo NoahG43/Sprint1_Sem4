@@ -1,3 +1,5 @@
+// Worked on by Noah Gosse
+
 package com.keyin.members;
 
 public class Tournament {
