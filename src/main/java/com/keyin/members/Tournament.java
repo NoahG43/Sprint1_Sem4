@@ -3,11 +3,13 @@
 package com.keyin.members;
 
 public class Tournament {
+
     private String startDate;
     private String endDate;
     private String location;
     private double entryFee;
     private double cashPrize;
+//declare members variable as Member obj(from member classfile)    
     private Member members;
     private String finalStandings;
 
@@ -67,17 +69,20 @@ public class Tournament {
         this.finalStandings = finalStandings;
     }
 
-//    public Tournament(String startDate, String endDate, String location, double entryFee,
-//                      double cashPrize, Member members, String finalStandings){
-//        this.startDate = startDate;
-//        this.endDate = endDate;
-//        this.location = location;
-//        this.entryFee = entryFee;
-//        this.cashPrize = cashPrize;
-//        this.members = members;
-//        this.finalStandings = finalStandings;
-//
-//
-//
-//    }
+    
+/*
+//parameterized tournament constructor -- may not need to be used
+//creates a tournament based on the parameters given
+   public Tournament(String tourName, String startDate, String endDate, String location, double entryFee,
+                     double cashPrize, Member members, String finalStandings){
+       this.tourName = tourName
+       this.startDate = startDate;
+       this.endDate = endDate;
+       this.location = location;
+       this.entryFee = entryFee;
+       this.cashPrize = cashPrize;
+       this.members = members;
+       this.finalStandings = finalStandings;
+   } 
+*/
 }
