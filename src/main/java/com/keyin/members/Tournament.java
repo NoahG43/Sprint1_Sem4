@@ -3,10 +3,7 @@
 package com.keyin.members;
 
 public class Tournament {
-//Tournament class containing tournament variables
-//with a get and set method for each.    
 
-    private String tourName;
     private String startDate;
     private String endDate;
     private String location;
@@ -15,15 +12,6 @@ public class Tournament {
 //declare members variable as Member obj(from member classfile)    
     private Member members;
     private String finalStandings;
-
-    
-    public String getTourName() {
-        return tourName;
-    }
-
-    public void setTourName(String tourName) {
-        this.tourName = tourName;
-    }
 
     public String getStartDate() {
         return startDate;
