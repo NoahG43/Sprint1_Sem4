@@ -3,8 +3,6 @@
 package com.keyin.members;
 
 public class Tournament {
-
-    private String tourName;
     private String startDate;
     private String endDate;
     private String location;
@@ -12,12 +10,6 @@ public class Tournament {
     private double cashPrize;
     private Member members;
     private String finalStandings;
-
-    public String getTourName(){
-        return tourName;
-    }
-
-    public void setTourName(String tourName){ this.tourName = tourName; }
 
     public String getStartDate() {
         return startDate;
