@@ -1,4 +1,4 @@
-// Worked on by Noah Gosse
+// Member class
 
 package com.keyin.members;
 

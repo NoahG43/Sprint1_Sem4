@@ -1,3 +1,5 @@
+// Database file
+
 package com.keyin.data;
 import java.util.*;
 import com.keyin.members.Member;

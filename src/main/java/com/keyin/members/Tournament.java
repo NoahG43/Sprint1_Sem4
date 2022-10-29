@@ -1,4 +1,4 @@
-// Worked on by Noah Gosse
+// Tournament class
 
 package com.keyin.members;
 

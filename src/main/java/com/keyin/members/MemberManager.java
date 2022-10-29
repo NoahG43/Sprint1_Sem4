@@ -1,3 +1,5 @@
+// Member manager file
+
 package com.keyin.members;
 
 import com.keyin.data.Database;
