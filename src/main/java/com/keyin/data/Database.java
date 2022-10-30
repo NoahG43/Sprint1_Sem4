@@ -6,6 +6,7 @@ import com.keyin.members.Member;
 import com.keyin.members.Tournament;
 public class Database {
     public Member getMemberByName(String name){
+        //returns a member object based on a string sent to it;
         return null;
     }
 
