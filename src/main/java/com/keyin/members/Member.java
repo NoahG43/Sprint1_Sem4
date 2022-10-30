@@ -93,4 +93,12 @@ public class Member {
     public void setFutureTour(String futureTour) {
         this.futureTour = futureTour;
     }
+
+
+    public String toString(){
+        return ("Name: " + name + "Address: " + address + "Email: " + email + "Phone: " + phone +
+                "Start Date: " + startDate + "Duration: " + duration + "Member Type: " + memberType +
+                "Current Tour: " + currentTour + "Past Tour: " + pastTour + "Future Tour: " +
+                futureTour);
+    }
 }

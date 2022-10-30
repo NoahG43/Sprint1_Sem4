@@ -74,17 +74,14 @@ public class Tournament {
         this.finalStandings = finalStandings;
     }
 
-//    public Tournament(String startDate, String endDate, String location, double entryFee,
-//                      double cashPrize, Member members, String finalStandings){
-//        this.startDate = startDate;
-//        this.endDate = endDate;
-//        this.location = location;
-//        this.entryFee = entryFee;
-//        this.cashPrize = cashPrize;
-//        this.members = members;
-//        this.finalStandings = finalStandings;
-//
-//
-//
-//    }
+    public String toString(){
+        return ("Tournament Name: " + tourName +
+                "Start Date: " + startDate +
+                "End Date: " + endDate +
+                "Location: " + location +
+                "Entry Fee: " + entryFee +
+                "Cash Prize: " + cashPrize +
+                "Members: " + members +
+                "Final Standings: " + finalStandings);
+    }
 }
