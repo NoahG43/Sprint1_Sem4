@@ -1,8 +1,13 @@
-// Member class
+//Last edited Oct 30 7:30pm
+//Created for
+//Created on Oct 23
+//Created by Noah Gosse
+
 
 package com.keyin.members;
 
 public class Member {
+//member class with all the necessary attributes to create a new member in the database
     private String name;
     private String address;
     private String email;

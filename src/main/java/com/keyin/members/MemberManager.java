@@ -1,4 +1,8 @@
-// Member manager file
+//Last edited Oct 30 7:30pm
+//Created for
+//Created on Oct 23
+//Created by Noah Gosse
+
 
 package com.keyin.members;
 
